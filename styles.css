@@ -13,6 +13,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
+    font-size: 18pt;
 }
 
 .header {
@@ -23,6 +24,7 @@ body {
 .mainTitle {
     padding: 15px;
     margin: 0;
+    font-size: 32pt;
 }
 
 .navBar {
@@ -33,7 +35,7 @@ body {
 }
 
 .navBarElement {
-    width: 75px;
+    width: 100px;
     padding: 5px;
     margin: 0px auto 0px auto;
     background-color: rgba(163, 211, 255, 0.3);
