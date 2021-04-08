@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html" charset="utf-8">
+        <script src='avatarSelection.js'></script>
         <link type='text/css' rel='stylesheet' href='styles.css'>
         <link type='text/css' rel='stylesheet' href='login.css'>
         <title>Geonite</title>
@@ -11,17 +12,17 @@
             <h1 class='mainTitle' id='mainTitle'>GEONITE</h1>
         </div>
         <section class='mainContent' id='mainContent'>
-            <form action='index.html' method='post' class='loginPanel' id='loginPanel'>
+            <form class='loginPanel' id='loginPanel'>
                 <h1 class='loginTitle'>ENTRAR</h1>
                 <div class='loginElement'>
                     <label for='user' class='loginLabel'>Usuario:</label>
-                    <input type='text' class='loginInput' id='user' name='user'>
+                    <input required type='text' class='loginInput' id='user' name='user'>
                 </div>
                 <div class='loginElement'>
                     <label for='password' class='loginLabel'>Contraseña:</label>
-                    <input type='password' class='loginInput' id='password' name='password'>
+                    <input required type='password' class='loginInput' id='password' name='password'>
                 </div>
-                <button form='loginPanel' class='loginElement'>Entrar</button>
+                <button type='button' onclick='submitUser()' class='loginElement' id='loginButton'>Entrar</button>
             </form>
         </section>
     </body>

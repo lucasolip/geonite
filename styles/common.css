@@ -1,6 +1,11 @@
 @font-face {
     font-family: fortnite;
-    src: url("font/fortnite.otf");
+    src: url("../font/fortnite.otf");
+}
+
+@font-face {
+    font-family: noto;
+    src: url("../font/NotoSans-Bold.ttf");
 }
 
 body {
@@ -8,12 +13,12 @@ body {
     background-color: #F0F0F0;
     color: #0F0F0F;
     margin: 0px;
-    background-image: url("media/map.jpg");
+    background-image: url("../media/map.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    font-size: 18pt;
+    font-size: 12pt;
 }
 
 .header {
@@ -29,9 +34,10 @@ body {
 
 .navBar {
     display: flex;
-    width: 80%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
+    font-family: noto;
 }
 
 .navBarElement {
@@ -43,6 +49,11 @@ body {
     text-align: center;
 }
 
-.navBarElement:hover .navBarElement:focus {
+.navBarElement:hover {
     background-color: rgba(163, 211, 255, 0.5);
+}
+
+.navBarElement:active {
+    background-color: rgba(255, 246, 0, 1);
+    color: #0F0F0F;
 }
