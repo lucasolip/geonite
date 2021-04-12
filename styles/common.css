@@ -57,3 +57,80 @@ body {
     background-color: rgba(255, 246, 0, 1);
     color: #0F0F0F;
 }
+
+.mainContent {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    color: #F0F0F0;
+    text-align: center;
+    font-size: 16pt;
+    height: 70%;
+
+    position: relative;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.leftBar {
+    margin-top: 30px;
+    margin-left: 15px;
+    height: 100%;
+}
+
+.profileBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(10, 10, 10, 0.8);
+    width: 300px;
+}
+
+.levelText {
+    padding: 5px;
+    margin: auto;
+}
+
+.levelNumber {
+    font-size: 150%;
+}
+
+.profilePic {
+    width: 150px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.characterPanel {
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+    top: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.characterModel {
+    max-height: 500px;
+}
+
+.rightBar {
+    height: 100%;
+    width: 300px;
+    margin: auto 15px auto 15px;
+}
+
+.teacherBar {
+    background-color: rgba(10, 10, 10, 0.8);
+    margin-top: 50%;
+    margin-bottom: 15px;
+}
+
+.grandpaBar {
+    background-color: rgba(10, 10, 10, 0.8);
+    margin-bottom: 50%;
+    margin-top: 15px;
+}
