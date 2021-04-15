@@ -1,0 +1,30 @@
+.missionPanel {
+    width: 100%;
+    text-align: left;
+    overflow-y: scroll;
+    max-height: 100%;
+    margin-right: 15px;
+}
+
+.mission {
+    margin: 15px;
+    background-color: rgba(10, 10, 10, 0.8);
+}
+
+.mission:hover {
+    background-color: rgba(10, 10, 10, 0.9);
+}
+
+p {
+    margin: 0;
+}
+
+.missionName {
+    padding: 15px;
+}
+
+.missionDescription {
+    padding: 15px;
+    padding-top: 0px;
+}
+

@@ -22,14 +22,34 @@ body {
 }
 
 .header {
+    display: flex;
     background-color: #0F0F0F;
     color: #F0F0F0;
 }
 
 .mainTitle {
-    padding: 15px;
-    margin: 0;
+    padding: 10px 0 0 15px ;
+    margin: 0 auto 0 0;
     font-size: 32pt;
+}
+
+.headerRightElement {
+    display: flex;
+    border: solid;
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    width: 75px;
+    text-align: right;
+    align-items: center;
+}
+
+.headerInfo {
+    margin: 0 5px 0 auto;
+}
+
+.headerIcon {
+    margin: 0;
+    width: 24px;
 }
 
 .navBar {
@@ -47,6 +67,7 @@ body {
     background-color: rgba(163, 211, 255, 0.3);
     color: #F0F0F0;
     text-align: center;
+    text-decoration: none;
 }
 
 .navBarElement:hover {
@@ -121,16 +142,39 @@ body {
     height: 100%;
     width: 300px;
     margin: auto 15px auto 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .teacherBar {
     background-color: rgba(10, 10, 10, 0.8);
-    margin-top: 50%;
     margin-bottom: 15px;
 }
 
 .grandpaBar {
     background-color: rgba(10, 10, 10, 0.8);
-    margin-bottom: 50%;
     margin-top: 15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgba(10,10,10,0.6);
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 16px;
+}
+
+body {
+    scrollbar-color: #000000 rgba(10,10,10,0.6);;
+    scrollbar-width: thin;
+    border-radius: 16px;
 }
