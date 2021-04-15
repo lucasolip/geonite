@@ -1,3 +1,8 @@
+@font-face {
+    font-family: fortnite;
+    src: url("../font/fortnite.otf");
+}
+
 .missionPanel {
     width: 100%;
     text-align: left;
@@ -9,6 +14,8 @@
 .mission {
     margin: 15px;
     background-color: rgba(10, 10, 10, 0.8);
+    display: flex;
+    justify-content: space-between;
 }
 
 .mission:hover {
@@ -28,3 +35,24 @@ p {
     padding-top: 0px;
 }
 
+.playButton {
+    margin: 15px;
+    font-family: fortnite;
+    background-color: rgb(255, 246, 0);
+    border: solid;
+    border-color:rgb(10, 10, 10);
+    width: 75px;
+    font-size: 16pt;
+    box-shadow: 5px 5px;
+}
+
+.playButton:hover {
+    background-color: rgb(255, 250, 110);
+}
+
+.playButton:active {
+    position: relative;
+    top: 2.5px;
+    left: 2.5px;
+    box-shadow: none;
+}
