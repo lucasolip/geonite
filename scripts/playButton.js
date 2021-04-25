@@ -13,11 +13,6 @@ var setPlayButton = function(event) {
         playButtonHolder.removeChild(playButton);
         playButtonHolder.className = 'mission';
     }
-    /*for (mission of missions) {
-        if (mission.contains(playButton)) {
-            mission.removeChild(playButton);
-        }
-    }*/
     target = event.target;
     while (target.className !== 'mission') {
         target = target.parentElement;
