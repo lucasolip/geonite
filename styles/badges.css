@@ -1,0 +1,37 @@
+@font-face {
+    font-family: fortnite;
+    src: url("../font/fortnite.otf");
+}
+
+@font-face {
+    font-family: noto;
+    src: url("../font/NotoSans-Bold.ttf");
+}
+
+.insigniaPanel {
+    width: 100%;
+    text-align: left;
+    overflow-y: scroll;
+    margin-right: 15px;
+    font-family: noto;
+    font-size: 14pt;
+}
+
+.insignia {
+    margin: 15px;
+    background-color: rgba(10, 10, 10, 0.8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.insignia:hover {
+    background-color: rgba(10, 10, 10, 0.9);
+}
+
+p {
+    margin: 0;
+}
+
+.insigniaName {
+    padding: 15px;
+}
