@@ -10,7 +10,6 @@
 
 .insigniaPanel {
     width: 100%;
-    text-align: left;
     overflow-y: scroll;
     max-height: 100%;
     margin-right: 15px;
@@ -33,6 +32,13 @@ p {
     margin: 0;
 }
 
-.insigniaName {
+.insigniaCompleted {
+    text-align: right;
     padding: 15px;
 }
+
+.insigniaName {
+    text-align: left;
+    padding: 15px;
+}
+
