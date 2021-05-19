@@ -1,6 +1,6 @@
 function submitUser() {
     localStorage.user = document.getElementById("user").value;
-    window.location.href = "index.html";
+    window.location.href = "selection.html";
 }
 
 window.onload = function() {

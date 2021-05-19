@@ -1,0 +1,44 @@
+@font-face {
+    font-family: fortnite;
+    src: url('../font/fortnite.otf');
+}
+
+@font-face {
+    font-family: noto;
+    src: url('../font/NotoSans-Bold.ttf');
+}
+
+
+.charactersPanel {
+    height: 120%;
+    position: relative;
+    margin: 25px;
+    margin-top: 0px;
+    background-color: rgba(10, 10, 10, 0.8);
+}
+
+.selectionHeader {
+    margin: 15px;
+}
+
+.selectionBody {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.unselectable {
+    filter: grayscale(100%);
+    background-color: rgb(97, 97, 97);
+}
+
+img {
+    width: 150px;
+    object-fit: cover;
+    margin: 15px;
+    background-color: rgba(178, 207, 211, 0.897);
+    border: rgba(255, 255, 255, 0.897) 5px solid; 
+}
+
