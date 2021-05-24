@@ -112,6 +112,11 @@ body {
     width: 300px;
 }
 
+.profileText {
+    display: flex;
+    flex-flow: column;
+}
+
 .levelText {
     padding: 5px;
     margin: auto;

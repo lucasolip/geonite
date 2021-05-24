@@ -13,7 +13,7 @@
             <h1 class='mainTitle' id='mainTitle'>GEONITE</h1>
         </div>
         <section class='mainContent' id='mainContent'>
-            <form class='loginPanel' id='loginPanel'>
+            <form class='loginPanel' id='loginPanel' onsubmit='return submitUser()' action='selection.html' method='POST'>
                 <h1 class='loginTitle'>ENTRAR</h1>
                 <div class='loginElement'>
                     <label for='user' class='loginLabel'>Usuario:</label>
@@ -23,7 +23,7 @@
                     <label for='password' class='loginLabel'>Contraseña:</label>
                     <input required type='password' class='loginInput' id='password' name='password'>
                 </div>
-                <input type='submit' formaction="index.html" class='loginElement' id='loginButton' value='Entrar'></button>
+                <input type='submit' class='loginElement' id='loginButton' value='Entrar'></button>
             </form>
         </section>
     </body>

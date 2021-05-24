@@ -29,6 +29,10 @@
     justify-content: center;
 }
 
+.selectable:hover {
+    filter: brightness(110%)
+}
+
 .unselectable {
     filter: grayscale(100%);
     background-color: rgb(97, 97, 97);

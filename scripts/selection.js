@@ -37,6 +37,12 @@ for (path of characters) {
     img.src = path;
     if (path !== characters[0]) {
         img.className = 'unselectable';
+    } else {
+        img.className = 'selectable';
+        var link = document.createElement('a');
+        link.href = "index.html";
+        link.appendChild(img);
+        img = link;
     }
     divProfile.className = 'characterProfile';
     divProfile.appendChild(img);
