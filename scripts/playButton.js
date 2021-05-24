@@ -22,7 +22,18 @@ var setPlayButton = function(event) {
     playButtonHolder = target;
 }
 
+var goToLink = function(event) {
+    var name = playButtonHolder.childNodes[0].childNodes[0].textContent;
+    for (mission of missions) {
+        if (mission['name'] === name) {
+            window.location.href = mission['link'];
+        }
+    }
+}
+
 missions = document.getElementsByClassName("mission");
 for (mission of missions) {
     mission.addEventListener('click', setPlayButton);
 }
+playButton.addEventListener('click', goToLink);
+console.log(playButton)
