@@ -8,7 +8,6 @@ var setPlayButton = function(event) {
     if (event.target === playButton) {
         return;
     }
-    missions = document.getElementsByClassName("mission");
     if (playButtonHolder) {
         playButtonHolder.removeChild(playButton);
         playButtonHolder.className = 'mission';
@@ -31,9 +30,8 @@ var goToLink = function(event) {
     }
 }
 
-missions = document.getElementsByClassName("mission");
-for (mission of missions) {
+missionContainer = document.getElementsByClassName("mission");
+for (mission of missionContainer) {
     mission.addEventListener('click', setPlayButton);
 }
 playButton.addEventListener('click', goToLink);
-console.log(playButton)

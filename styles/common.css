@@ -164,6 +164,32 @@ body {
     margin-top: 15px;
 }
 
+@keyframes floating {
+    from    {top: 75px;}
+    to      {top: 70px;}
+}
+
+@keyframes unfloating {
+    from    {top: 70px;}
+    to      {top: 75px;}
+}
+
+.map {
+    position: absolute;
+    width: 100px;
+    right: 50px;
+    top: 75px;
+    filter: sepia(100%);
+    animation-name: unfloating;
+    animation-duration: 1s;
+}
+
+.map:hover {
+    top: 70px;
+    animation-name: floating;
+    animation-duration: 1s;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
