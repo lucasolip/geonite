@@ -8,7 +8,6 @@
     src: url('../font/NotoSans-Bold.ttf');
 }
 
-
 .charactersPanel {
     height: 120%;
     position: relative;
@@ -30,12 +29,19 @@
 }
 
 .selectable:hover {
-    filter: brightness(110%)
+    filter: brightness(110%);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .unselectable {
-    filter: grayscale(100%);
     background-color: rgb(97, 97, 97);
+    filter: grayscale(100%);
+}
+
+.unselectable:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 img {
@@ -45,4 +51,3 @@ img {
     background-color: rgba(178, 207, 211, 0.897);
     border: rgba(255, 255, 255, 0.897) 5px solid; 
 }
-
