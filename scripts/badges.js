@@ -1,7 +1,7 @@
 var insignias = [
     {
         "name": "Súper poder para leer mapas",
-        "picture": "media/badges/insignia1.png",
+        "picture": "media/icons/geonite-g.png",
         "completed": "[0/10]"
     }, {
         "name": "Súper poder para conocer el nombre de un país y su capital",
@@ -27,10 +27,6 @@ var insignias = [
         "name": "Súper poder para ...",
         "picture": "media/badges/insignia7.png",
         "completed": "[0/10]"
-    }, {
-        "name": "Súper poder para ...",
-        "picture": "media/badges/insignia8.png",
-        "completed": "[0/10]"
     }
 ];
 
@@ -44,6 +40,9 @@ for (insignia of insignias) {
     var pName = document.createElement('p');
     var tName = document.createTextNode(insignia['name']);
     var tCompleted = document.createTextNode(insignia['completed']);
+    var img = document.createElement('img');
+    img.src = insignia['picture'];
+    img.className = 'insigniaImg';
     div.className = 'insignia';
     divText.className = 'insigniaText';
     divText2.className = 'insigniaText2';
@@ -53,6 +52,7 @@ for (insignia of insignias) {
     pName.appendChild(tName);
     divText.appendChild(pName);
     divText2.appendChild(pCompleted);
+    div.appendChild(img);
     div.appendChild(divText);
     div.appendChild(divText2);
     insigniaPanel.appendChild(div);

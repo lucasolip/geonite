@@ -28,7 +28,9 @@
         <section class='mainContent' id='mainContent'>
             <div class='leftBar' id='leftBar'>
                 <section class='profileBar' id='profileBar'>
-                    <img class='profilePic' id='profilePic' src='media/profilePics/profilePicPlaceholder.png'>
+                    <a href='missions.html'>
+                        <img class='profilePic' id='profilePic' src='media/profilePics/profilePicPlaceholder.png'>
+                    </a>
                     <section class='profileText'>
                         <p class='nameText' id='nameText'>Astraea</p>
                         <script src='scripts/setName.js'></script>
@@ -36,18 +38,14 @@
                     </section>
                 </section>
                 <section class='profileBar groupBar' id='groupBar'>
-                    <a href='groupmissions.html'>
-                        <img class='groupPic' id='profilePic' src='media/profilePics/classmate7.png'>
-                    </a>
-                    <a href='groupmissions.html'>
-                        <img class='groupPic' id='profilePic' src='media/profilePics/classmate3.png'>
-                    </a>
+                    <img class='groupPic' id='profilePic' src='media/profilePics/classmate7.png'>
+                    <img class='groupPic' id='profilePic' src='media/profilePics/classmate3.png'>
                 </section>
             </div>
             <section class='rightBar'>
-                <span class='missionsTitle' id='missionsTitle'>MISIONES INDIVIDUALES</span>
+                <span class='missionsTitle' id='missionsTitle'>MISIONES DE GRUPO</span>
                 <section class='missionPanel' id='missionPanel'>
-                    <script src='data/missionList.js'></script>
+                    <script src='data/groupmissionsList.js'></script>
                     <script src='scripts/missions.js'></script>
                     <script src='scripts/playButton.js'></script>
                 </section>

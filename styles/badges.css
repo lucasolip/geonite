@@ -21,11 +21,16 @@
     margin: 15px;
     background-color: rgba(10, 10, 10, 0.8);
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .insignia:hover {
     background-color: rgba(10, 10, 10, 0.9);
+}
+
+.insigniaImg {
+    width: 50px;
+    margin: 5px;
 }
 
 p {
@@ -39,6 +44,9 @@ p {
 
 .insigniaName {
     text-align: left;
-    padding: 15px;
+    padding: 15px 0 15px 0;
 }
 
+.insigniaText2 {
+    margin-left: auto;
+}

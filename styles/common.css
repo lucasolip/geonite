@@ -98,9 +98,12 @@ body {
 }
 
 .leftBar {
+    display: flex;
     margin-top: 30px;
     margin-left: 15px;
     height: 100%;
+    flex-flow: column;
+    flex-wrap: wrap;
 }
 
 .profileBar {
@@ -128,6 +131,16 @@ body {
 
 .profilePic {
     width: 150px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.groupBar {
+    margin-top: 15px;
+}
+
+.groupPic {
+    width: 100px;
     object-fit: cover;
     padding: 15px;
 }
@@ -204,4 +217,8 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #000000;
   border-radius: 16px;
+}
+
+p {
+    margin: 0;
 }
