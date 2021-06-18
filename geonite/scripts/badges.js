@@ -1,31 +1,31 @@
 var insignias = [
     {
         "name": "Súper poder para leer mapas",
-        "picture": "media/icons/geonite-g.png",
+        "picture": "media/icons/badges/badge1.png",
         "completed": "[0/10]"
     }, {
         "name": "Súper poder para conocer el nombre de un país y su capital",
-        "picture": "media/badges/insignia2.png",
+        "picture": "media/icons/badges/badge2.png",
         "completed": "[0/10]"
     }, {
-        "name": "Súper poder para hacer tareas",
-        "pciture": "media/badges/insignia3.png",
+        "name": "Súper poder para terminar tareas",
+        "picture": "media/icons/badges/badge3.png",
         "completed": "[0/10]"
     }, {
         "name": "Súper poder para entregar todo a tiempo",
-        "picture": "media/badges/insignia4.png",
+        "picture": "media/icons/badges/badge4.png",
         "completed": "[0/10]"
     }, {
         "name": "Súper poder para conocer los tipos de paisajes",
-        "picture": "media/badges/insignia5.png",
+        "picture": "media/icons/badges/badge5.png",
         "completed": "[0/10]"
     }, {
-        "name": "Súper poder para ...",
-        "picture": "media/badges/insignia6.png",
+        "name": "Súper poder para conocer la historia del lugar",
+        "picture": "media/icons/badges/badge6.png",
         "completed": "[0/10]"
     }, {
-        "name": "Súper poder para ...",
-        "picture": "media/badges/insignia7.png",
+        "name": "Súper poder para entender a los pueblos y sus costumbres",
+        "picture": "media/icons/badges/badge7.png",
         "completed": "[0/10]"
     }
 ];

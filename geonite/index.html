@@ -3,7 +3,6 @@
     <head>
         <meta http-equiv="content-type" content="text/html" charset="utf-8">
         <link type='text/css' rel='stylesheet' href='styles/common.css'>
-        <link type='text/css' rel='stylesheet' href='styles/missions.css'>
         <link type='image/x-icon' rel='icon' href='media/icons/geonite-g.png'>
         <title>Geonite</title>
     </head>
@@ -12,7 +11,7 @@
             <h1 class='mainTitle' id='mainTitle'>GEONITE</h1>
             <div class='headerRightElement' id='insigniasTotalesPanel'>
                 <img class='headerIcon' id='insigniasIcon'>
-                <p class='headerInfo' id='insigniasText'>1/80</p>
+                <p class='headerInfo' id='insigniasText'>0/70</p>
             </div>
             <div class='headerRightElement' id='connectedUsersPanel'>
                 <img class='headerIcon' id='playersIcon' src='media/icons/users.png'>
@@ -24,7 +23,6 @@
             <a class='navBarElement' id='misiones' href='missions.html'>MISIONES</a>
             <a class='navBarElement' id='insignias' href='badges.html'>INSIGNIAS</a>
         </nav>
-        <a href='https://maps.google.com'><img class='map' src='media/icons/map.png'></a>
         <section class='mainContent' id='mainContent'>
             <div class='leftBar' id='leftBar'>
                 <section class='profileBar' id='profileBar'>
@@ -35,21 +33,18 @@
                         <p class='levelText' id='levelText'>NIVEL <b class='levelNumber' id='levelNumber'>1</b></p>
                     </section>
                 </section>
-                <section class='profileBar groupBar' id='groupBar'>
-                    <a href='groupmissions.html'>
-                        <img class='groupPic' id='profilePic' src='media/profilePics/classmate7.png'>
-                    </a>
-                    <a href='groupmissions.html'>
-                        <img class='groupPic' id='profilePic' src='media/profilePics/classmate3.png'>
-                    </a>
-                </section>
             </div>
-            <section class='rightBar'>
-                <span class='missionsTitle' id='missionsTitle'>MISIONES INDIVIDUALES</span>
-                <section class='missionPanel' id='missionPanel'>
-                    <script src='data/missionList.js'></script>
-                    <script src='scripts/missions.js'></script>
-                    <script src='scripts/playButton.js'></script>
+            <div class='characterPanel' id='characterPanel'>
+                <img class='characterModel' id='characterModel' src='media/models/modelPlaceholder.png'>
+            </div>
+            <section class='rightBar' id='rightBar'>
+                <section class='grandpaBar' id='grandpaBar'>
+                    <p class='name' id='grandpaName'>ABUELO</p>
+                    <img class='grandpaPic profilePic' id='grandpaPic' src='media/profilePics/grandpaProfilePicPlaceholder.png'>
+                </section>
+                <section class='teacherBar' id='teacherBar'>
+                    <p class='name' id='teacherName'>MARIBEL</p>
+                    <img class='teacherPic profilePic' id='teacherPic' src='media/profilePics/teacherProfilePic.png'>
                 </section>
             </section>
         </section>
